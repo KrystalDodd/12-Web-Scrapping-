@@ -1,0 +1,63 @@
+body{
+    background-color: darkgrey
+}
+
+nav{
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+}
+
+.navbar-brand{
+    background:  rgb(93, 189, 184);
+
+}
+
+.max-temp{
+    height:auto;
+    max-width: 50%;
+}
+
+.card-title{
+    color: black;
+}
+
+.btn{
+    background-color:black;
+}
+
+.container{
+    background-color: white;
+}
+
+.comp-title{
+    color: rgb(93, 189, 184);
+}
+
+.card-deck-title{
+    color: rgb(93, 189, 184);
+}
+
+@media only screen and (max-width: 767.98px) {
+    body {
+        background-color: white;
+    }
+
+    nav {
+        background-color:  rgb(93, 189, 184);
+    }
+
+    .navbar-collapse{
+        background-color: white;
+        margin-right: 0;
+    }
+
+    .card-title{
+        font-size: xx-large;
+    }
+
+    .comp-title{
+        font-size: xx-large;
+    }
+
+
+}
